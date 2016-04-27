@@ -1,0 +1,40 @@
+html, body, div, a, p, h1 {
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
+a {
+    text-decoration: none;
+}
+#background {
+    height: 100vh;
+    background: rgb(0, 0, 0);
+    overflow: hidden;
+}
+#my-button {
+    display: block;
+    width: 200px;
+    margin: 150px auto;
+    padding: 15px 5px;
+    text-align: center;
+    background-color: #483D8B;
+    color: #FFFFFF;
+}
+#my-button:hover {
+    background-color: #8470FF;
+}
+#my-button:active {
+    background-color: #615C7F;
+}
+#colorValues {
+    display: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: bolder;
+    width: 200px;
+    margin: 0 auto;
+    border: 3px solid #483D8B;
+    padding: 10px 0;
+}
